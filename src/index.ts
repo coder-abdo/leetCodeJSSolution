@@ -1,4 +1,5 @@
-import { findAllNumbers } from "./findAllNumbers";
+import { sortColors } from "./sortColors";
+//import { findAllNumbers } from "./findAllNumbers";
 // import { majorityElement } from "./majorityElement";
 // import { canPlaceFlowers } from "./canPlaceFlowers";
 //import { removeElement } from "./removeElement";
@@ -43,5 +44,6 @@ import { findAllNumbers } from "./findAllNumbers";
 // console.log(majorityElement([1, 2, 2, 2, 1]));
 // console.log(majorityElement([3, 2, 3]));
 
-console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
-console.log(findAllNumbers([1, 1]));
+// console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
+// console.log(findAllNumbers([1, 1]));
+console.log(sortColors([2, 0, 2, 1, 1, 0]));
