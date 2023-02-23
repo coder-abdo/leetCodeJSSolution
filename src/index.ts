@@ -1,4 +1,6 @@
-import { canPlaceFlowers } from "./canPlaceFlowers";
+import { findAllNumbers } from "./findAllNumbers";
+// import { majorityElement } from "./majorityElement";
+// import { canPlaceFlowers } from "./canPlaceFlowers";
 //import { removeElement } from "./removeElement";
 //import { arrayPairSum } from "./arrayPartition";
 //import { generateRowsOfPascal } from "./rowOfPascal";
@@ -34,7 +36,12 @@ import { canPlaceFlowers } from "./canPlaceFlowers";
 // console.log(longestCommonPrefix(["a"]));
 // console.log(longestCommonPrefix(["", ""]));
 
-//console.log(removeElement([3, 2, 2, 3], 3));
-console.log(canPlaceFlowers([1, 0, 0, 0, 1], 1));
-console.log(canPlaceFlowers([1, 0, 0, 0, 1], 2));
-console.log(canPlaceFlowers([0, 0, 1, 0, 0], 1));
+// //console.log(removeElement([3, 2, 2, 3], 3));
+// console.log(canPlaceFlowers([1, 0, 0, 0, 1], 1));
+// console.log(canPlaceFlowers([1, 0, 0, 0, 1], 2));
+// console.log(canPlaceFlowers([0, 0, 1, 0, 0], 1));
+// console.log(majorityElement([1, 2, 2, 2, 1]));
+// console.log(majorityElement([3, 2, 3]));
+
+console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
+console.log(findAllNumbers([1, 1]));
