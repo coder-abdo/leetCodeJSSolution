@@ -1,4 +1,7 @@
-import { sortColors } from "./sortColors";
+import { wordPattern } from "./wordPattern";
+//import { maxNumberOfBalloons } from "./numsOfBallons";
+// import { pivotIndex } from "./pivotIndex";
+// import { sortColors } from "./sortColors";
 //import { findAllNumbers } from "./findAllNumbers";
 // import { majorityElement } from "./majorityElement";
 // import { canPlaceFlowers } from "./canPlaceFlowers";
@@ -46,4 +49,23 @@ import { sortColors } from "./sortColors";
 
 // console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
 // console.log(findAllNumbers([1, 1]));
-console.log(sortColors([2, 0, 2, 1, 1, 0]));
+// console.log(sortColors([2, 0, 2, 1, 1, 0]));
+// console.log(pivotIndex([1, 7, 3, 6, 5, 6]));
+// console.log(pivotIndex([1, 2, 3]));
+// console.log(pivotIndex([2, 1, -1]));
+// console.log(pivotIndex([-1, -1, -1, -1, -1, 0]));
+// console.log(pivotIndex([-1, -1, 0, 1, 1, 0]));
+// console.log(maxNumberOfBalloons("nlaebolko"));
+// console.log(maxNumberOfBalloons("loonbalxballpoon"));
+// console.log(maxNumberOfBalloons("leetcode"));
+// console.log(maxNumberOfBalloons("balon"));
+// console.log(
+//   maxNumberOfBalloons(
+//     "krhizmmgmcrecekgyljqkldocicziihtgpqwbticmvuyznragqoyrukzopfmjhjjxemsxmrsxuqmnkrzhgvtgdgtykhcglurvppvcwhrhrjoislonvvglhdciilduvuiebmffaagxerjeewmtcwmhmtwlxtvlbocczlrppmpjbpnifqtlninyzjtmazxdbzwxthpvrfulvrspycqcghuopjirzoeuqhetnbrcdakilzmklxwudxxhwilasbjjhhfgghogqoofsufysmcqeilaivtmfziumjloewbkjvaahsaaggteppqyuoylgpbdwqubaalfwcqrjeycjbbpifjbpigjdnnswocusuprydgrtxuaojeriigwumlovafxnpibjopjfqzrwemoinmptxddgcszmfprdrichjeqcvikynzigleaajcysusqasqadjemgnyvmzmbcfrttrzonwafrnedglhpudovigwvpimttiketopkvqw"
+//   )
+// );
+console.log(wordPattern("abba", "dog cat cat dog"));
+console.log(wordPattern("abba", "dog cat cat fish"));
+console.log(wordPattern("aaaa", "dog cat cat dog"));
+console.log(wordPattern("abba", "dog dog dog dog"));
+console.log(wordPattern("abba", "dog constructor constructor dog"));
