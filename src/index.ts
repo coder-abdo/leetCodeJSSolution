@@ -1,4 +1,5 @@
-import { wordPattern } from "./wordPattern";
+import { isIsomorphic } from "./isIsomorphic";
+//import { wordPattern } from "./wordPattern";
 //import { maxNumberOfBalloons } from "./numsOfBallons";
 // import { pivotIndex } from "./pivotIndex";
 // import { sortColors } from "./sortColors";
@@ -64,8 +65,11 @@ import { wordPattern } from "./wordPattern";
 //     "krhizmmgmcrecekgyljqkldocicziihtgpqwbticmvuyznragqoyrukzopfmjhjjxemsxmrsxuqmnkrzhgvtgdgtykhcglurvppvcwhrhrjoislonvvglhdciilduvuiebmffaagxerjeewmtcwmhmtwlxtvlbocczlrppmpjbpnifqtlninyzjtmazxdbzwxthpvrfulvrspycqcghuopjirzoeuqhetnbrcdakilzmklxwudxxhwilasbjjhhfgghogqoofsufysmcqeilaivtmfziumjloewbkjvaahsaaggteppqyuoylgpbdwqubaalfwcqrjeycjbbpifjbpigjdnnswocusuprydgrtxuaojeriigwumlovafxnpibjopjfqzrwemoinmptxddgcszmfprdrichjeqcvikynzigleaajcysusqasqadjemgnyvmzmbcfrttrzonwafrnedglhpudovigwvpimttiketopkvqw"
 //   )
 // );
-console.log(wordPattern("abba", "dog cat cat dog"));
-console.log(wordPattern("abba", "dog cat cat fish"));
-console.log(wordPattern("aaaa", "dog cat cat dog"));
-console.log(wordPattern("abba", "dog dog dog dog"));
-console.log(wordPattern("abba", "dog constructor constructor dog"));
+// console.log(wordPattern("abba", "dog cat cat dog"));
+// console.log(wordPattern("abba", "dog cat cat fish"));
+// console.log(wordPattern("aaaa", "dog cat cat dog"));
+// console.log(wordPattern("abba", "dog dog dog dog"));
+// console.log(wordPattern("abba", "dog constructor constructor dog"));
+console.log(isIsomorphic("egg", "add"));
+console.log(isIsomorphic("foo", "bar"));
+console.log(isIsomorphic("paper", "title"));
