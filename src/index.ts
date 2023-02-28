@@ -1,4 +1,5 @@
-import { groupAnagrams } from "./groupAnagrams";
+import { topKFrequent } from "./topKFrequent";
+// import { groupAnagrams } from "./groupAnagrams";
 // import { isIsomorphic } from "./isIsomorphic";
 //import { wordPattern } from "./wordPattern";
 //import { maxNumberOfBalloons } from "./numsOfBallons";
@@ -74,4 +75,6 @@ import { groupAnagrams } from "./groupAnagrams";
 // console.log(isIsomorphic("egg", "add"));
 // console.log(isIsomorphic("foo", "bar"));
 // console.log(isIsomorphic("paper", "title"));
-console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+// console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+console.log(topKFrequent([1, 1, 1, 1, 2, 2, 3], 2));
+console.log(topKFrequent([1], 1));
