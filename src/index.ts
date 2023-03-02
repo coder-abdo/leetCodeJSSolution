@@ -1,10 +1,12 @@
-import { topKFrequent } from "./topKFrequent";
+// import { longestConsecutive } from "./longestConsecutive";
+// import { isValidSudoku } from "./validSudoku";
+// import { topKFrequent } from "./topKFrequent";
 // import { groupAnagrams } from "./groupAnagrams";
 // import { isIsomorphic } from "./isIsomorphic";
 //import { wordPattern } from "./wordPattern";
 //import { maxNumberOfBalloons } from "./numsOfBallons";
 // import { pivotIndex } from "./pivotIndex";
-// import { sortColors } from "./sortColors";
+import { sortColors } from "./sortColors";
 //import { findAllNumbers } from "./findAllNumbers";
 // import { majorityElement } from "./majorityElement";
 // import { canPlaceFlowers } from "./canPlaceFlowers";
@@ -52,7 +54,7 @@ import { topKFrequent } from "./topKFrequent";
 
 // console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
 // console.log(findAllNumbers([1, 1]));
-// console.log(sortColors([2, 0, 2, 1, 1, 0]));
+console.log(sortColors([2, 0, 2, 1, 1, 0]));
 // console.log(pivotIndex([1, 7, 3, 6, 5, 6]));
 // console.log(pivotIndex([1, 2, 3]));
 // console.log(pivotIndex([2, 1, -1]));
@@ -76,5 +78,22 @@ import { topKFrequent } from "./topKFrequent";
 // console.log(isIsomorphic("foo", "bar"));
 // console.log(isIsomorphic("paper", "title"));
 // console.log(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
-console.log(topKFrequent([1, 1, 1, 1, 2, 2, 3], 2));
-console.log(topKFrequent([1], 1));
+// console.log(topKFrequent([1, 1, 1, 1, 2, 2, 3], 2));
+// console.log(topKFrequent([1], 1));
+// console.log(
+//   isValidSudoku([
+//     ["5", "3", ".", ".", "7", ".", ".", ".", "."],
+//     ["6", ".", ".", "1", "9", "5", ".", ".", "."],
+//     [".", "9", "8", ".", ".", ".", ".", "6", "."],
+//     ["8", ".", ".", ".", "6", ".", ".", ".", "3"],
+//     ["4", ".", ".", "8", ".", "3", ".", ".", "1"],
+//     ["7", ".", ".", ".", "2", ".", ".", ".", "6"],
+//     [".", "6", ".", ".", ".", ".", "2", "8", "."],
+//     [".", ".", ".", "4", "1", "9", ".", ".", "5"],
+//     [".", ".", ".", ".", "8", ".", ".", "7", "9"],
+//   ])
+// );
+
+// console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));
+// console.log(longestConsecutive([9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]));
+// console.log(longestConsecutive([0]));
