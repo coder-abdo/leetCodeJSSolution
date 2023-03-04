@@ -1,3 +1,8 @@
+import { findRepeatedDnaSequences } from "./findRepeatedDnaSequences";
+// import { subArraySum } from "./subArraySum";
+//import { isAnagram } from "./anagram";
+//import { isSupsqeunce } from "./isSubsquence";
+//import { replaceElements } from "./replaceElementWithTheGreates";
 // import { longestConsecutive } from "./longestConsecutive";
 // import { isValidSudoku } from "./validSudoku";
 // import { topKFrequent } from "./topKFrequent";
@@ -6,7 +11,7 @@
 //import { wordPattern } from "./wordPattern";
 //import { maxNumberOfBalloons } from "./numsOfBallons";
 // import { pivotIndex } from "./pivotIndex";
-import { sortColors } from "./sortColors";
+// import { sortColors } from "./sortColors";
 //import { findAllNumbers } from "./findAllNumbers";
 // import { majorityElement } from "./majorityElement";
 // import { canPlaceFlowers } from "./canPlaceFlowers";
@@ -21,9 +26,6 @@ import { sortColors } from "./sortColors";
 //import {finalValue} from './finalValue'
 //import {twoSum} from './twoSum'
 // import { lengthOfLastWord } from "./lengthOfLastWord";
-//import { isAnagram } from "./anagram";
-//import { isSupsqeunce } from "./isSubsquence";
-//import { replaceElements } from "./replaceElementWithTheGreates";
 //console.log(isAnagram("car", "rat"))
 //console.log(isAnagram("anagram", "nagaram"))
 //console.log(replaceElements([17,18,5,4,6,1]))
@@ -54,7 +56,7 @@ import { sortColors } from "./sortColors";
 
 // console.log(findAllNumbers([4, 3, 2, 7, 8, 2, 3, 1]));
 // console.log(findAllNumbers([1, 1]));
-console.log(sortColors([2, 0, 2, 1, 1, 0]));
+// console.log(sortColors([2, 0, 2, 1, 1, 0]));
 // console.log(pivotIndex([1, 7, 3, 6, 5, 6]));
 // console.log(pivotIndex([1, 2, 3]));
 // console.log(pivotIndex([2, 1, -1]));
@@ -97,3 +99,7 @@ console.log(sortColors([2, 0, 2, 1, 1, 0]));
 // console.log(longestConsecutive([100, 4, 200, 1, 3, 2]));
 // console.log(longestConsecutive([9, 1, 4, 7, 3, -1, 0, 5, 8, -1, 6]));
 // console.log(longestConsecutive([0]));
+// console.log(subArraySum([1, 1, 1], 2));
+// console.log(subArraySum([1, 2, 3], 3));
+// console.log(subArraySum([1, 2, 1, 2, 1], 3));
+// console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
