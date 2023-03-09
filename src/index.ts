@@ -1,4 +1,5 @@
-import { findRepeatedDnaSequences } from "./findRepeatedDnaSequences";
+import { minSwaps } from "./minNumOfSwaps";
+// import { findRepeatedDnaSequences } from "./findRepeatedDnaSequences";
 // import { subArraySum } from "./subArraySum";
 //import { isAnagram } from "./anagram";
 //import { isSupsqeunce } from "./isSubsquence";
@@ -102,4 +103,6 @@ import { findRepeatedDnaSequences } from "./findRepeatedDnaSequences";
 // console.log(subArraySum([1, 1, 1], 2));
 // console.log(subArraySum([1, 2, 3], 3));
 // console.log(subArraySum([1, 2, 1, 2, 1], 3));
-console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+// console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+console.log(minSwaps("][]["));
+console.log(minSwaps("]]][[["));
