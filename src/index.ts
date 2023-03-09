@@ -102,4 +102,4 @@ import { findRepeatedDnaSequences } from "./findRepeatedDnaSequences";
 // console.log(subArraySum([1, 1, 1], 2));
 // console.log(subArraySum([1, 2, 3], 3));
 // console.log(subArraySum([1, 2, 1, 2, 1], 3));
-// console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
+console.log(findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"));
